@@ -1,0 +1,232 @@
+- generic [active] [ref=f2e1]:
+  - link "Skip to content" [ref=f2e2] [cursor=pointer]:
+    - /url: "#main"
+  - banner [ref=f2e3]:
+    - link "CWARE home" [ref=f2e4] [cursor=pointer]:
+      - /url: index.html
+      - img "CWARE, Empower. Elevate. Evolve." [ref=f2e5]
+    - text: ⌄ ⌄ ⌄ ⌄
+    - button "Open navigation" [ref=f2e6]: Menu
+  - main [ref=f2e7]:
+    - generic [ref=f2e8]:
+      - paragraph [ref=f2e10]: YOUR NEXT CHAPTER, ENGINEERED.
+      - heading "Big ambition. Better software." [level=1] [ref=f2e12]
+      - generic [ref=f2e13]:
+        - paragraph [ref=f2e14]: CWARE is a software development and IT resourcing company in George, South Africa. We build custom systems, add technical skills to teams and run business platforms for recruitment, WhatsApp, events, online stores and HR.
+        - link "Book a consultation ↗" [ref=f2e15] [cursor=pointer]:
+          - /url: contact/index.html
+          - text: Book a consultation
+          - generic [ref=f2e16]: ↗
+        - link "Explore our expertise ↓" [ref=f2e17] [cursor=pointer]:
+          - /url: "#expertise"
+      - generic [ref=f2e18]:
+        - generic [ref=f2e19]: IDEAS INTO IMPACT.
+        - generic [ref=f2e20]: CWARE
+    - generic [ref=f2e21]:
+      - paragraph [ref=f2e22]:
+        - text: THE TECHNOLOGY BEHIND
+        - strong [ref=f2e23]: YOUR NEXT MOVE
+      - generic [ref=f2e24]:
+        - generic [ref=f2e25]: .NET
+        - generic [ref=f2e26]: Microsoft Azure
+        - generic [ref=f2e27]: React
+        - generic [ref=f2e28]: SQL Server
+        - generic [ref=f2e29]: Power BI
+    - generic [ref=f2e30]:
+      - generic [ref=f2e31]:
+        - paragraph [ref=f2e32]: 01 / OUR EXPERTISE
+        - heading "The right solution. The right team." [level=2] [ref=f2e33]
+        - paragraph [ref=f2e34]: From a new idea to a system your business relies on, we bring the skills to move you forward.
+      - generic [ref=f2e35]:
+        - article [ref=f2e36]:
+          - generic [ref=f2e37]:
+            - generic [ref=f2e38]: </>
+            - generic [ref=f2e39]: "01"
+          - heading "Software built around you." [level=3] [ref=f2e40]
+          - paragraph [ref=f2e41]: Web applications, mobile experiences and business systems shaped around your processes and your customers.
+          - generic [ref=f2e42]:
+            - generic [ref=f2e43]: Custom development
+            - generic [ref=f2e44]: Web & mobile
+            - generic [ref=f2e45]: API integration
+          - link "Build your solution ↗" [ref=f2e46] [cursor=pointer]:
+            - /url: services/software-development/index.html
+            - text: Build your solution
+            - generic [ref=f2e47]: ↗
+        - article [ref=f2e48]:
+          - generic [ref=f2e49]:
+            - generic [ref=f2e50]: "{ + }"
+            - generic [ref=f2e51]: "02"
+          - heading "Great people. Part of your team." [level=3] [ref=f2e52]
+          - paragraph [ref=f2e53]: Add experienced developers to your team, with the skills and flexibility to keep your projects moving.
+          - generic [ref=f2e54]:
+            - generic [ref=f2e55]: Team augmentation
+            - generic [ref=f2e56]: Dedicated developers
+            - generic [ref=f2e57]: Resourcing
+          - link "Request a developer ↗" [ref=f2e58] [cursor=pointer]:
+            - /url: services/team-augmentation/index.html
+            - text: Request a developer
+            - generic [ref=f2e59]: ↗
+        - article [ref=f2e60]:
+          - generic [ref=f2e61]:
+            - generic [ref=f2e62]: "[ ↗ ]"
+            - generic [ref=f2e63]: "03"
+          - heading "Connected systems. Clearer decisions." [level=3] [ref=f2e64]
+          - paragraph [ref=f2e65]: Connect your applications, automate manual work and turn business data into reporting your team can use.
+          - generic [ref=f2e66]:
+            - generic [ref=f2e67]: Automation
+            - generic [ref=f2e68]: Business intelligence
+            - generic [ref=f2e69]: Cloud solutions
+          - link "Connect your business ↗" [ref=f2e70] [cursor=pointer]:
+            - /url: services/cloud-integration/index.html
+            - text: Connect your business
+            - generic [ref=f2e71]: ↗
+    - generic [ref=f2e72]:
+      - paragraph [ref=f2e73]: 02 / CWARE PRODUCTS
+      - heading "Find the platform for your process." [level=2] [ref=f2e74]
+      - generic [ref=f2e75]:
+        - article [ref=f2e76]:
+          - paragraph [ref=f2e77]: Applicant tracking & agency CRM
+          - heading [level=3] [ref=f2e78]:
+            - link "CWARE Recruit" [ref=f2e79] [cursor=pointer]:
+              - /url: products/recruit/index.html
+          - paragraph [ref=f2e80]: AI CV capture, searchable candidates and client-ready submissions, with a business-development pipeline in the same platform.
+          - link "View details ↗" [ref=f2e81] [cursor=pointer]:
+            - /url: products/recruit/index.html
+        - article [ref=f2e82]:
+          - paragraph [ref=f2e83]: WhatsApp Business Platform
+          - heading [level=3] [ref=f2e84]:
+            - link "CWARE Connect" [ref=f2e85] [cursor=pointer]:
+              - /url: products/connect/index.html
+          - paragraph [ref=f2e86]: Automate customer journeys, manage conversations and connect WhatsApp messaging to your business systems.
+          - link "View details ↗" [ref=f2e87] [cursor=pointer]:
+            - /url: products/connect/index.html
+        - article [ref=f2e88]:
+          - paragraph [ref=f2e89]: Events, members & payments
+          - heading [level=3] [ref=f2e90]:
+            - link "Events Portal" [ref=f2e91] [cursor=pointer]:
+              - /url: products/events-portal/index.html
+          - paragraph [ref=f2e92]: Member registration, event entries, payments and reconciliation together in one portal for your organisation.
+          - link "View details ↗" [ref=f2e93] [cursor=pointer]:
+            - /url: products/events-portal/index.html
+        - article [ref=f2e94]:
+          - paragraph [ref=f2e95]: Online stores, managed together
+          - heading [level=3] [ref=f2e96]:
+            - link "CWARE OnlineShop" [ref=f2e97] [cursor=pointer]:
+              - /url: products/onlineshop/index.html
+          - paragraph [ref=f2e98]: Launch and manage multiple branded stores, with each shop’s own domain, catalogue, payments and email identity.
+          - link "View details ↗" [ref=f2e99] [cursor=pointer]:
+            - /url: products/onlineshop/index.html
+        - article [ref=f2e100]:
+          - paragraph [ref=f2e101]: People, time, leave & invoicing
+          - heading [level=3] [ref=f2e102]:
+            - link "HR Portal" [ref=f2e103] [cursor=pointer]:
+              - /url: products/hr-portal/index.html
+          - paragraph [ref=f2e104]: Connect employee records, approved time, leave balances and client invoicing in one back-office portal.
+          - link "View details ↗" [ref=f2e105] [cursor=pointer]:
+            - /url: products/hr-portal/index.html
+        - article [ref=f2e106]:
+          - paragraph [ref=f2e107]: Custom AI integration platforms
+          - heading [level=3] [ref=f2e108]:
+            - link "MCP Development" [ref=f2e109] [cursor=pointer]:
+              - /url: services/mcp-development/index.html
+          - paragraph [ref=f2e110]: Custom MCP servers that connect compatible AI applications to your APIs, business data and approved actions.
+          - link "View details ↗" [ref=f2e111] [cursor=pointer]:
+            - /url: services/mcp-development/index.html
+    - generic [ref=f2e112]:
+      - paragraph [ref=f2e113]: DECIDE WITH THE DETAILS
+      - heading "Answers. Working examples. A clear next step." [level=2] [ref=f2e114]
+      - generic [ref=f2e115]:
+        - article [ref=f2e116]:
+          - paragraph [ref=f2e117]: Answers
+          - heading [level=3] [ref=f2e118]:
+            - link "Questions buyers ask" [ref=f2e119] [cursor=pointer]:
+              - /url: knowledge/index.html
+          - paragraph [ref=f2e120]: Read direct answers about integrations, pricing, CV imports and delivery.
+          - link "View details ↗" [ref=f2e121] [cursor=pointer]:
+            - /url: knowledge/index.html
+        - article [ref=f2e122]:
+          - paragraph [ref=f2e123]: Evidence
+          - heading [level=3] [ref=f2e124]:
+            - link "CWARE products in use" [ref=f2e125] [cursor=pointer]:
+              - /url: case-studies/index.html
+          - paragraph [ref=f2e126]: Explore documented workflows from our own operations and event administration.
+          - link "View details ↗" [ref=f2e127] [cursor=pointer]:
+            - /url: case-studies/index.html
+        - article [ref=f2e128]:
+          - paragraph [ref=f2e129]: Plan
+          - heading [level=3] [ref=f2e130]:
+            - link "Pricing and planning tools" [ref=f2e131] [cursor=pointer]:
+              - /url: pricing/index.html
+          - paragraph [ref=f2e132]: Check published starting prices and prepare a useful brief for your quote.
+          - link "View details ↗" [ref=f2e133] [cursor=pointer]:
+            - /url: pricing/index.html
+    - generic [ref=f2e134]:
+      - generic [ref=f2e135]:
+        - paragraph [ref=f2e136]: 03 / HOW WE WORK
+        - heading "Small sprints. Meaningful progress." [level=2] [ref=f2e137]
+        - paragraph [ref=f2e138]: Work directly with a team that takes time to understand your business, communicates clearly and delivers in manageable steps.
+      - generic [ref=f2e139]:
+        - article [ref=f2e140]:
+          - generic [ref=f2e141]: "01"
+          - generic [ref=f2e142]:
+            - heading "Understand the challenge." [level=3] [ref=f2e143]
+            - paragraph [ref=f2e144]: We start with your goals, your users and what success needs to look like.
+        - article [ref=f2e145]:
+          - generic [ref=f2e146]: "02"
+          - generic [ref=f2e147]:
+            - heading "Build. Share. Refine." [level=3] [ref=f2e148]
+            - paragraph [ref=f2e149]: Regular sprints and feedback keep the work visible and focused on what matters.
+        - article [ref=f2e150]:
+          - generic [ref=f2e151]: "03"
+          - generic [ref=f2e152]:
+            - heading "Launch and keep moving." [level=3] [ref=f2e153]
+            - paragraph [ref=f2e154]: From release to ongoing support, we help your software evolve with your business.
+    - generic [ref=f2e155]:
+      - paragraph [ref=f2e156]: YOUR NEXT CHAPTER STARTS HERE.
+      - generic [ref=f2e157]:
+        - heading "What could we build together?" [level=2] [ref=f2e158]
+        - link "Tell us about your project ↗" [ref=f2e159] [cursor=pointer]:
+          - /url: contact/index.html#project-brief
+          - text: Tell us about your project
+          - generic [ref=f2e160]: ↗
+      - paragraph [ref=f2e161]: Have an idea, a challenge or a team to grow? Let's talk.
+      - generic [ref=f2e162]:
+        - link "info@cware.co.za" [ref=f2e163] [cursor=pointer]:
+          - /url: mailto:info@cware.co.za
+        - link "+27 (0)83 356 9223" [ref=f2e164] [cursor=pointer]:
+          - /url: tel:+27833569223
+        - generic [ref=f2e165]: George, South Africa
+  - contentinfo [ref=f2e166]:
+    - generic [ref=f2e167]:
+      - link "CWARE home" [ref=f2e168] [cursor=pointer]:
+        - /url: index.html
+        - img "CWARE, Empower. Elevate. Evolve." [ref=f2e169]
+      - paragraph [ref=f2e170]: Software, people and platforms for the way your business works.
+      - generic [ref=f2e171]: CWARE (Pty) Ltd 62 Cathedral Street, George WC 6530, South Africa
+      - generic [ref=f2e172]:
+        - link "info@cware.co.za" [ref=f2e173] [cursor=pointer]:
+          - /url: mailto:info@cware.co.za
+        - link "+27 (0)83 356 9223" [ref=f2e174] [cursor=pointer]:
+          - /url: tel:+27833569223
+    - navigation "Footer navigation" [ref=f2e175]:
+      - link "Products" [ref=f2e176] [cursor=pointer]:
+        - /url: products/index.html
+      - link "Services" [ref=f2e177] [cursor=pointer]:
+        - /url: services/index.html
+      - link "Solutions" [ref=f2e178] [cursor=pointer]:
+        - /url: solutions/index.html
+      - link "Industries" [ref=f2e179] [cursor=pointer]:
+        - /url: industries/index.html
+      - link "Case studies" [ref=f2e180] [cursor=pointer]:
+        - /url: case-studies/index.html
+      - link "Knowledge" [ref=f2e181] [cursor=pointer]:
+        - /url: knowledge/index.html
+      - link "Pricing" [ref=f2e182] [cursor=pointer]:
+        - /url: pricing/index.html
+      - link "Contact" [ref=f2e183] [cursor=pointer]:
+        - /url: contact/index.html
+    - generic [ref=f2e184]:
+      - generic [ref=f2e185]: © 2026 CWARE (Pty) Ltd.
+      - generic [ref=f2e186]: Reg. 2019/216190/07
+      - link "Back to top ↑" [ref=f2e187] [cursor=pointer]:
+        - /url: "#"
