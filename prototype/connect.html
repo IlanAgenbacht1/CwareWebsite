@@ -309,6 +309,8 @@ footer.site{padding:64px 0 40px;border-top:1px solid var(--line);margin-top:96px
 }
 
 .nav-contact{display:none}
+#np-toast{position:fixed;left:50%;bottom:24px;transform:translate(-50%,20px);background:#0B1324;color:#fff;font-size:14px;padding:12px 18px;border-radius:10px;opacity:0;pointer-events:none;transition:opacity .2s,transform .2s;z-index:50;box-shadow:0 10px 30px rgba(0,0,0,.25)}
+#np-toast.show{opacity:1;transform:translate(-50%,0)}
 @media (max-width:760px){nav.main.open .nav-contact{display:block;color:var(--navy);font-weight:600}}
 </style>
 </head>
@@ -320,11 +322,11 @@ footer.site{padding:64px 0 40px;border-top:1px solid var(--line);margin-top:96px
   <nav class="main" id="nav" aria-label="Main">
     <a href="index.html#products" aria-current="page">Products</a>
     <a href="index.html#services">Services</a>
-    <a href="../pricing/index.html">Pricing</a>
-    <a href="../about/index.html">About</a>
-    <a class="nav-contact" href="../contact/index.html">Book a consultation</a>
+    <a href="#" data-np>Pricing</a>
+    <a href="#" data-np>About</a>
+    <a class="nav-contact" href="#" data-np>Book a consultation</a>
   </nav>
-  <a class="btn btn-primary btn-sm" href="../contact/index.html">Book a consultation</a>
+  <a class="btn btn-primary btn-sm" href="#" data-np>Book a consultation</a>
   <button class="menu-btn" type="button" aria-expanded="false" aria-controls="nav">Menu</button>
 </div></header>
 <main id="main">
@@ -337,7 +339,7 @@ footer.site{padding:64px 0 40px;border-top:1px solid var(--line);margin-top:96px
     <p class="lead">CWARE Connect runs on Meta's official WhatsApp Business Platform. We build your conversation flows, connect them to your CRM or database, and run the service for you. Your team works every conversation from one shared inbox.</p>
     <div class="price-chip">From <b>R2 500</b> per month per WhatsApp number, excl. VAT</div>
     <div class="cta-row">
-      <a class="btn btn-primary" href="../contact/index.html?intent=demo&amp;product=connect">Book a 20-minute demo</a>
+      <a class="btn btn-primary" href="#" data-np>Book a 20-minute demo</a>
       <a class="btn btn-ghost" href="#pricing">How pricing works</a>
     </div>
   </div>
@@ -406,8 +408,8 @@ footer.site{padding:64px 0 40px;border-top:1px solid var(--line);margin-top:96px
     <hr>
     <p style="font-size:14.5px;color:var(--text)">Setup and Meta's messaging charges are confirmed in your quote.</p>
     <div class="cta-row" style="margin-top:22px">
-      <a class="btn btn-primary" href="../contact/index.html?intent=quote&amp;product=connect">Request a quote</a>
-      <a class="btn btn-ghost" href="../pricing/index.html">Price for several numbers</a>
+      <a class="btn btn-primary" href="#" data-np>Request a quote</a>
+      <a class="btn btn-ghost" href="#" data-np>Price for several numbers</a>
     </div>
   </div>
 </div></section>
@@ -428,7 +430,7 @@ footer.site{padding:64px 0 40px;border-top:1px solid var(--line);margin-top:96px
     <p>Book a 20-minute demo. Bring the question your team answers most often, and we'll show you how it could run on WhatsApp.</p>
   </div>
   <div class="contact-list">
-    <a href="../contact/index.html?intent=demo&amp;product=connect"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3.5" y="5" width="17" height="15.5" rx="2.5"/><path d="M3.5 10h17M8 3v4M16 3v4"/></svg><span>Book a demo<small>20 minutes, online</small></span></a>
+    <a href="#" data-np><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3.5" y="5" width="17" height="15.5" rx="2.5"/><path d="M3.5 10h17M8 3v4M16 3v4"/></svg><span>Book a demo<small>20 minutes, online</small></span></a>
     <a href="mailto:info@cware.co.za?subject=CWARE%20Connect"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2.5"/><path d="M3.5 7l8.5 6 8.5-6"/></svg><span>info@cware.co.za<small>Email</small></span></a>
     <a href="tel:+27833569223"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 3.5h2.6l1.3 4.2-2 1.4a11 11 0 0 0 6.4 6.4l1.4-2 4.2 1.3v2.6a2 2 0 0 1-2.2 2A16 16 0 0 1 4.6 5.7a2 2 0 0 1 2-2.2z"/></svg><span>+27 (0)83 356 9223<small>Phone</small></span></a>
   </div>
@@ -437,10 +439,10 @@ footer.site{padding:64px 0 40px;border-top:1px solid var(--line);margin-top:96px
 <section class="section" style="padding-bottom:0"><div class="wrap">
   <h2 style="font-size:24px;margin-bottom:20px">Other CWARE platforms</h2>
   <div class="related">
-    <a href="../products/recruit/index.html"><b>CWARE Recruit</b><small>Applicant tracking and agency CRM</small></a>
-    <a href="../products/events-portal/index.html"><b>Events Portal</b><small>Members, entries and payments</small></a>
-    <a href="../products/onlineshop/index.html"><b>CWARE OnlineShop</b><small>Several branded shops, one system</small></a>
-    <a href="../products/hr-portal/index.html"><b>HR Portal</b><small>Time, leave and client invoicing</small></a>
+    <a href="#" data-np><b>CWARE Recruit</b><small>Applicant tracking and agency CRM</small></a>
+    <a href="#" data-np><b>Events Portal</b><small>Members, entries and payments</small></a>
+    <a href="#" data-np><b>CWARE OnlineShop</b><small>Several branded shops, one system</small></a>
+    <a href="#" data-np><b>HR Portal</b><small>Time, leave and client invoicing</small></a>
   </div>
 </div></section>
 </main>
@@ -451,30 +453,32 @@ footer.site{padding:64px 0 40px;border-top:1px solid var(--line);margin-top:96px
       <p>Custom software, developers and business platforms. Based in George, Western Cape.</p>
     </div>
     <div><h4>Products</h4><ul>
-      <li><a href="../products/recruit/index.html">CWARE Recruit</a></li>
+      <li><a href="#" data-np>CWARE Recruit</a></li>
       <li><a href="connect.html">CWARE Connect</a></li>
-      <li><a href="../products/events-portal/index.html">Events Portal</a></li>
-      <li><a href="../products/onlineshop/index.html">CWARE OnlineShop</a></li>
-      <li><a href="../products/hr-portal/index.html">HR Portal</a></li>
+      <li><a href="#" data-np>Events Portal</a></li>
+      <li><a href="#" data-np>CWARE OnlineShop</a></li>
+      <li><a href="#" data-np>HR Portal</a></li>
     </ul></div>
     <div><h4>Services</h4><ul>
-      <li><a href="../services/software-development/index.html">Software development</a></li>
-      <li><a href="../services/team-augmentation/index.html">Team augmentation</a></li>
-      <li><a href="../services/it-recruitment/index.html">IT recruitment</a></li>
-      <li><a href="../services/power-bi/index.html">Power BI</a></li>
-      <li><a href="../services/mcp-development/index.html">AI and MCP development</a></li>
+      <li><a href="#" data-np>Software development</a></li>
+      <li><a href="#" data-np>Team augmentation</a></li>
+      <li><a href="#" data-np>IT recruitment</a></li>
+      <li><a href="#" data-np>Power BI</a></li>
+      <li><a href="#" data-np>AI and MCP development</a></li>
     </ul></div>
     <div><h4>Company</h4><ul>
-      <li><a href="../about/index.html">About</a></li>
-      <li><a href="../pricing/index.html">Pricing</a></li>
-      <li><a href="../knowledge/index.html">Guides and answers</a></li>
-      <li><a href="../contact/index.html">Contact</a></li>
-      <li><a href="#">Privacy policy</a></li>
+      <li><a href="#" data-np>About</a></li>
+      <li><a href="#" data-np>Pricing</a></li>
+      <li><a href="#" data-np>Guides and answers</a></li>
+      <li><a href="#" data-np>Contact</a></li>
+      <li><a href="#" data-np>Privacy policy</a></li>
     </ul></div>
   </div>
   <div class="legal"><span>&copy; 2026 CWARE (Pty) Ltd &middot; Reg. 2019/216190/07</span><span>62 Cathedral Street, George, 6530 &middot; info@cware.co.za &middot; +27 (0)83 356 9223</span></div>
 </div></footer>
+<div id="np-toast" role="status" aria-live="polite">This page isn't part of the prototype yet.</div>
 <script>
+var toast=document.getElementById('np-toast');document.querySelectorAll('[data-np]').forEach(function(l){l.addEventListener('click',function(e){e.preventDefault();toast.classList.add('show');clearTimeout(toast._t);toast._t=setTimeout(function(){toast.classList.remove('show')},2400);});});
 document.querySelector('.menu-btn').addEventListener('click',function(){var n=document.getElementById('nav'),o=n.classList.toggle('open');this.setAttribute('aria-expanded',o);this.textContent=o?'Close':'Menu';});
 </script>
 </body>

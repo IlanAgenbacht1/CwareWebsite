@@ -309,6 +309,8 @@ footer.site{padding:64px 0 40px;border-top:1px solid var(--line);margin-top:96px
 }
 
 .nav-contact{display:none}
+#np-toast{position:fixed;left:50%;bottom:24px;transform:translate(-50%,20px);background:#0B1324;color:#fff;font-size:14px;padding:12px 18px;border-radius:10px;opacity:0;pointer-events:none;transition:opacity .2s,transform .2s;z-index:50;box-shadow:0 10px 30px rgba(0,0,0,.25)}
+#np-toast.show{opacity:1;transform:translate(-50%,0)}
 @media (max-width:760px){nav.main.open .nav-contact{display:block;color:var(--navy);font-weight:600}}
 </style>
 </head>
@@ -320,11 +322,11 @@ footer.site{padding:64px 0 40px;border-top:1px solid var(--line);margin-top:96px
   <nav class="main" id="nav" aria-label="Main">
     <a href="index.html#products">Products</a>
     <a href="index.html#services">Services</a>
-    <a href="../pricing/index.html">Pricing</a>
-    <a href="../about/index.html">About</a>
-    <a class="nav-contact" href="../contact/index.html">Book a consultation</a>
+    <a href="#" data-np>Pricing</a>
+    <a href="#" data-np>About</a>
+    <a class="nav-contact" href="#" data-np>Book a consultation</a>
   </nav>
-  <a class="btn btn-primary btn-sm" href="../contact/index.html">Book a consultation</a>
+  <a class="btn btn-primary btn-sm" href="#" data-np>Book a consultation</a>
   <button class="menu-btn" type="button" aria-expanded="false" aria-controls="nav">Menu</button>
 </div></header>
 <main id="main">
@@ -335,7 +337,7 @@ footer.site{padding:64px 0 40px;border-top:1px solid var(--line);margin-top:96px
     <h1>Business software, built and run from George</h1>
     <p class="lead">We build custom systems on .NET and Azure, add developers to your team, and run five platforms of our own for recruitment, WhatsApp, events, online shops and HR.</p>
     <div class="cta-row">
-      <a class="btn btn-primary" href="../contact/index.html">Book a consultation</a>
+      <a class="btn btn-primary" href="#" data-np>Book a consultation</a>
       <a class="btn btn-ghost" href="#products">See our products</a>
     </div>
     <div class="facts">
@@ -409,28 +411,28 @@ footer.site{padding:64px 0 40px;border-top:1px solid var(--line);margin-top:96px
         </dl>
       </div>
       <p class="price">Quoted on your setup and workflow</p>
-      <a class="link" href="../products/recruit/index.html">Explore Recruit &rarr;</a>
+      <a class="link" href="#" data-np>Explore Recruit &rarr;</a>
     </article>
     <article class="prod">
       <span class="what">Events, members and payments</span>
       <h3>Events Portal</h3>
-      <p>Member registration, event entries, payments and reconciliation in one portal. In use for swimming gala administration.</p>
+      <p>Member registration, event entries, payments and reconciliation in one portal. Currently runs a swimming academy's season.</p>
       <p class="price">Setup <b>R18 500</b>, then from <b>R2 450</b> a month</p>
-      <a class="link" href="../products/events-portal/index.html">Explore Events Portal &rarr;</a>
+      <a class="link" href="#" data-np>Explore Events Portal &rarr;</a>
     </article>
     <article class="prod">
       <span class="what">Multi-store e-commerce</span>
       <h3>CWARE OnlineShop</h3>
       <p>Run several branded shops, each with its own domain, catalogue, payments and email identity.</p>
       <p class="price">Quoted on your setup</p>
-      <a class="link" href="../products/onlineshop/index.html">Explore OnlineShop &rarr;</a>
+      <a class="link" href="#" data-np>Explore OnlineShop &rarr;</a>
     </article>
     <article class="prod">
       <span class="what">People, time and invoicing</span>
       <h3>HR Portal</h3>
       <p>Employee records, approved timesheets, leave balances and client invoicing in one back-office portal.</p>
       <p class="price">Quoted on your setup</p>
-      <a class="link" href="../products/hr-portal/index.html">Explore HR Portal &rarr;</a>
+      <a class="link" href="#" data-np>Explore HR Portal &rarr;</a>
     </article>
   </div>
 </div></section>
@@ -444,15 +446,15 @@ footer.site{padding:64px 0 40px;border-top:1px solid var(--line);margin-top:96px
     <div class="svc"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 8l-4 4 4 4M16 8l4 4-4 4M13.5 5l-3 14"/></svg><h3>Custom software</h3>
       <p>Web applications, business systems and integrations, built around how your team already works.</p>
       <ul><li>.NET</li><li>Azure</li><li>React</li><li>SQL Server</li></ul>
-      <a class="link" href="../services/software-development/index.html">Software development &rarr;</a></div>
+      <a class="link" href="#" data-np>Software development &rarr;</a></div>
     <div class="svc"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="9" cy="8" r="3.2"/><path d="M3.5 19c.6-3 2.8-4.8 5.5-4.8s4.9 1.8 5.5 4.8"/><circle cx="17" cy="9" r="2.5"/><path d="M15.8 14.3c2.3.2 4 1.8 4.6 4.2"/></svg><h3>Developers for your team</h3>
       <p>Experienced developers who join your team for as long as you need them, or permanent hires through our IT recruitment service.</p>
       <ul><li>Team augmentation</li><li>IT recruitment</li></ul>
-      <a class="link" href="../services/team-augmentation/index.html">Adding developers &rarr;</a></div>
+      <a class="link" href="#" data-np>Adding developers &rarr;</a></div>
     <div class="svc"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 4v16h16"/><path d="M8 15l3.5-4 3 2.5L19 8"/></svg><h3>Data, AI and integration</h3>
       <p>Power BI reporting, cloud integration, AI features, and MCP servers that let AI tools work with your systems under rules you set.</p>
       <ul><li>Power BI</li><li>Azure</li><li>AI</li><li>MCP</li></ul>
-      <a class="link" href="../services/index.html">All services &rarr;</a></div>
+      <a class="link" href="#" data-np>All services &rarr;</a></div>
   </div>
 </div></section>
 
@@ -490,10 +492,10 @@ footer.site{padding:64px 0 40px;border-top:1px solid var(--line);margin-top:96px
       <a class="link" href="connect.html#pricing">Connect pricing &rarr;</a></div>
     <div class="price-card"><h3>Events Portal</h3><div class="amount">R2 450 <small>/ month</small></div>
       <p>Up to 500 members, after a once-off R18 500 setup. R3 950 a month for up to 1 500 members.</p>
-      <a class="link" href="../pricing/index.html">Events Portal pricing &rarr;</a></div>
+      <a class="link" href="#" data-np>Events Portal pricing &rarr;</a></div>
     <div class="price-card"><h3>Custom development</h3><div class="amount">Quoted</div>
       <p>Based on a scoping call and a short written brief of what you need.</p>
-      <a class="link" href="../contact/index.html#project-brief">Prepare a brief &rarr;</a></div>
+      <a class="link" href="#" data-np>Prepare a brief &rarr;</a></div>
   </div>
   <p class="fine">All prices exclude VAT.</p>
 </div></section>
@@ -504,7 +506,7 @@ footer.site{padding:64px 0 40px;border-top:1px solid var(--line);margin-top:96px
     <p>Send a short brief, email or call. We'll set up a scoping call from there.</p>
   </div>
   <div class="contact-list">
-    <a href="../contact/index.html#project-brief"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"/><path d="M14 3v5h5M9 13h6M9 17h4"/></svg><span>Send a project brief<small>Online form</small></span></a>
+    <a href="#" data-np><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"/><path d="M14 3v5h5M9 13h6M9 17h4"/></svg><span>Send a project brief<small>Online form</small></span></a>
     <a href="mailto:info@cware.co.za"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2.5"/><path d="M3.5 7l8.5 6 8.5-6"/></svg><span>info@cware.co.za<small>Email</small></span></a>
     <a href="tel:+27833569223"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 3.5h2.6l1.3 4.2-2 1.4a11 11 0 0 0 6.4 6.4l1.4-2 4.2 1.3v2.6a2 2 0 0 1-2.2 2A16 16 0 0 1 4.6 5.7a2 2 0 0 1 2-2.2z"/></svg><span>+27 (0)83 356 9223<small>Phone</small></span></a>
   </div>
@@ -517,30 +519,32 @@ footer.site{padding:64px 0 40px;border-top:1px solid var(--line);margin-top:96px
       <p>Custom software, developers and business platforms. Based in George, Western Cape.</p>
     </div>
     <div><h4>Products</h4><ul>
-      <li><a href="../products/recruit/index.html">CWARE Recruit</a></li>
+      <li><a href="#" data-np>CWARE Recruit</a></li>
       <li><a href="connect.html">CWARE Connect</a></li>
-      <li><a href="../products/events-portal/index.html">Events Portal</a></li>
-      <li><a href="../products/onlineshop/index.html">CWARE OnlineShop</a></li>
-      <li><a href="../products/hr-portal/index.html">HR Portal</a></li>
+      <li><a href="#" data-np>Events Portal</a></li>
+      <li><a href="#" data-np>CWARE OnlineShop</a></li>
+      <li><a href="#" data-np>HR Portal</a></li>
     </ul></div>
     <div><h4>Services</h4><ul>
-      <li><a href="../services/software-development/index.html">Software development</a></li>
-      <li><a href="../services/team-augmentation/index.html">Team augmentation</a></li>
-      <li><a href="../services/it-recruitment/index.html">IT recruitment</a></li>
-      <li><a href="../services/power-bi/index.html">Power BI</a></li>
-      <li><a href="../services/mcp-development/index.html">AI and MCP development</a></li>
+      <li><a href="#" data-np>Software development</a></li>
+      <li><a href="#" data-np>Team augmentation</a></li>
+      <li><a href="#" data-np>IT recruitment</a></li>
+      <li><a href="#" data-np>Power BI</a></li>
+      <li><a href="#" data-np>AI and MCP development</a></li>
     </ul></div>
     <div><h4>Company</h4><ul>
-      <li><a href="../about/index.html">About</a></li>
-      <li><a href="../pricing/index.html">Pricing</a></li>
-      <li><a href="../knowledge/index.html">Guides and answers</a></li>
-      <li><a href="../contact/index.html">Contact</a></li>
-      <li><a href="#">Privacy policy</a></li>
+      <li><a href="#" data-np>About</a></li>
+      <li><a href="#" data-np>Pricing</a></li>
+      <li><a href="#" data-np>Guides and answers</a></li>
+      <li><a href="#" data-np>Contact</a></li>
+      <li><a href="#" data-np>Privacy policy</a></li>
     </ul></div>
   </div>
   <div class="legal"><span>&copy; 2026 CWARE (Pty) Ltd &middot; Reg. 2019/216190/07</span><span>62 Cathedral Street, George, 6530 &middot; info@cware.co.za &middot; +27 (0)83 356 9223</span></div>
 </div></footer>
+<div id="np-toast" role="status" aria-live="polite">This page isn't part of the prototype yet.</div>
 <script>
+var toast=document.getElementById('np-toast');document.querySelectorAll('[data-np]').forEach(function(l){l.addEventListener('click',function(e){e.preventDefault();toast.classList.add('show');clearTimeout(toast._t);toast._t=setTimeout(function(){toast.classList.remove('show')},2400);});});
 document.querySelector('.menu-btn').addEventListener('click',function(){var n=document.getElementById('nav'),o=n.classList.toggle('open');this.setAttribute('aria-expanded',o);this.textContent=o?'Close':'Menu';});
 </script>
 </body>
