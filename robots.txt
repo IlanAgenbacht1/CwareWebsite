@@ -1,3 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap: https://www.cware.co.za/sitemap.xml
+
+Sitemap: https://cware.co.za/sitemap.xml
