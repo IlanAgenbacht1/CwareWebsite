@@ -34,8 +34,14 @@ footer.site-footer{display:block;border-top:1px solid var(--line);padding-top:50
 @media(max-width:1000px){header nav,.nav-contact{display:none}.menu{display:block;margin-left:auto;background:#fff;border:1px solid var(--line);padding:9px 15px;font-size:14px}.tool-layout,.brief-layout{grid-template-columns:1fr;gap:30px}.tool-layout form{max-width:none}.brief-layout>div>p{max-width:none}.resource-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:700px){.resource-grid,.fact-grid,.contact-methods{grid-template-columns:1fr}.home-catalog .resource-grid{grid-template-columns:1fr}.home-catalog article,.home-catalog article:nth-last-child(-n+2){grid-column:auto}.answer-hero{padding-bottom:38px}.answer-hero h1{font-size:clamp(32px,8.5vw,52px)}.answer-hero .breadcrumb{font-size:13px}.direct-answer{font-size:18px}.answer-actions{gap:18px;padding-top:24px;padding-bottom:24px}.answer-actions .button{max-width:100%;gap:18px}.resource-grid article{padding:25px}.resource-grid h3{font-size:24px}.fact-grid{gap:27px;padding-top:35px;padding-bottom:35px}.article-body h2{font-size:25px}.article-body p{font-size:16px}.spotlight>div{gap:25px}.calculation-result{padding:25px}.brief-summary{padding:20px}.contact-methods{gap:12px}.contact-methods strong{font-size:20px}.footer-top{grid-template-columns:1fr;gap:25px}.footer-top .brand{padding-bottom:15px}.footer-bottom{gap:10px}.site-footer .brand img{width:168px}.comparison-wrap table{min-width:540px}}
 
-/* Tap targets for email and phone links (WCAG 2.2 target size). The negative
-   margin keeps the row height unchanged while the link itself is 44px tall. */
-.contact-links a{display:inline-flex;align-items:center;min-height:44px;margin:-11px 0}
-.footer-top>div a{display:inline-flex;align-items:center;min-height:44px}
-@media(max-width:700px){.contact-links a{margin:-5px 0}}
+/* Tap targets for email and phone links: at least 32px tall (WCAG 2.2 target size
+   asks for 24px). In the contact row the negative margin keeps the row height
+   unchanged (the link text is 22px tall). The two footer links sit on separate
+   lines, so they get no negative margin: overlapping targets would fail. */
+.contact-links a{display:inline-flex;align-items:center;min-height:32px;margin:-5px 0}
+.footer-top>div a{display:inline-flex;align-items:center;min-height:32px}
+
+/* Overview-page card titles (h2): same look as the .resource-grid h3 card titles. */
+.resource-grid h2{font-size:26px;font-weight:500;letter-spacing:-.035em;line-height:1.25;margin:0 0 18px}
+.resource-grid h2 a:hover{color:var(--blue)}
+@media(max-width:700px){.resource-grid h2{font-size:24px}}

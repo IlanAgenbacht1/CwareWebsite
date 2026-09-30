@@ -53,7 +53,7 @@ if (typeof document !== 'undefined') {
       const baseline = connectBaseline(count);
       document.getElementById('connect-result').textContent = baseline === null ? 'Enter a valid number' : 'From ' + money(baseline);
       document.getElementById('connect-error').textContent = baseline === null ? 'Enter a whole number from 1 to 100.' : '';
-      document.getElementById('connect-quote').href = '/contact/?intent=pricing&product=connect' + (baseline === null ? '' : '&numbers=' + count);
+      document.getElementById('connect-quote').href = '/contact/?intent=pricing&product=connect' + (baseline === null ? '' : '&numbers=' + count) + '#project-brief';
     };
     cf.addEventListener('submit', event => { event.preventDefault(); update(); });
     cf.addEventListener('input', update);
